@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  color: #fdfcfa;
+  margin: 30px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+}
+
+.l-text {
+  font-size: 1em;
+  font-weight: 700;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.r-text {
+  position: absolute;
+  left: 92%;
+  color: #20f3ad;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.r-text2 {
+  position: absolute;
+  bottom: -45%;
+  left: 95%;
+  color: #20f3ad;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 15px solid #00ff88;
+  left: 35%;
+}
+
+.img {
+  position: absolute;
+  bottom: -20%;
+  right: -29%;
+  background: transparent;
+}
+
+.img > img {
+  background: transparent;
+}
+
+.sec {
+  height: 50px;
+  width: 90%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  bottom: 0%;
+  color: #fdfcfa;
+  margin: 30px;
+}
+
+.icon {
+  position: absolute;
+  right: -4%;
+}
+
+ion-icon {
+  color: #fdfcfa;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.con1 {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.con2 {
+  color: #20f3ad;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: "Philosopher", sans-serif;
+}
+
+ion-icon:hover {
+  color: #20f3ad;
+  transform: translateY(-2px);
+}
+
+.asi {
+  position: absolute;
+  right: 0%;
+  height: 60%;
+  width: 5%;
+  color: #fdfcfa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 20px;
+}
+
+.asi > p {
+  transform: rotate(90deg);
+  cursor: pointer;
+  font-size: 0.9rem;
+  border: 2px solid #000;
+  text-align: center;
+  transition: all 1s linear;
+}
+
+.asi > p:hover {
+  border-bottom: 2px solid #20f3ad;
+}
